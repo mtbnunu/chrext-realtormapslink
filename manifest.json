@@ -1,0 +1,14 @@
+{
+    "name": "Realtor Maps Link",
+    "version": "1.0",
+    "description": "Create link to google maps on realtor.ca",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": [
+             "*://*.realtor.ca/*" 
+          ],
+          "js": ["content.js"]
+        }
+      ]
+  }
